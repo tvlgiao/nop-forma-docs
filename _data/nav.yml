@@ -1,0 +1,21 @@
+- title: Start here
+  items:
+    - { title: Overview, url: / }
+    - { title: Getting started, url: /getting-started/ }
+    - { title: Look and feel, url: /look-and-feel/ }
+- title: Store features
+  items:
+    - { title: Header and menu, url: /header-and-menu/ }
+    - { title: Home page sections, url: /home-page/ }
+    - { title: Product cards and product page, url: /product-page/ }
+- title: Reference
+  items:
+    - { title: Multi-store, url: /multi-store/ }
+    - { title: Right-to-left languages, url: /rtl/ }
+    - { title: Performance tips, url: /performance/ }
+    - { title: Uninstall, url: /uninstall/ }
+    - { title: Release notes, url: /release-notes/ }
+- title: Help
+  items:
+    - { title: FAQ, url: /faq/ }
+    - { title: Support, url: /support/ }

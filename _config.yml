@@ -1,0 +1,27 @@
+# Forma for nopCommerce documentation: Jekyll site served by GitHub Pages.
+title: "Forma for nopCommerce — Documentation"
+description: Documentation and support for Forma, the nopCommerce 5.00 theme by PapaThemes.
+url: "https://nop-forma.papathemes.com"
+baseurl: ""
+lang: en-US
+
+theme_name: Forma
+theme_version: 1.0.0
+theme_author: PapaThemes
+platform: nopCommerce 5.00
+demo_url: https://nop-forma-demo.papathemes.com
+contact_url: https://papathemes.com/contact-us/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - vendor/
