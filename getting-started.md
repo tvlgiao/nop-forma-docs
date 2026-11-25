@@ -28,6 +28,19 @@ lead: Install Forma from the ZIP package and make it your store's theme.
 
 Open your store: it now uses Forma, with a starting home page (hero, featured products, categories).
 
+## Update to a new version
+
+nopCommerce does not upload a theme over one that is already there ("A theme with 'Forma' system name is already defined"), so an update replaces the files instead. Your settings, presets and home page sections are kept: they live in the database.
+
+1. Back up the site folder and the database.
+2. Stop the site (in IIS, stop the site or its application pool; elsewhere, stop the service or container).
+3. Delete the folders `Themes/Forma` and `Plugins/Misc.FormaCore`, then copy the same two folders from the new package in their place.
+4. Start the site. On its first start the plugin updates its texts; the first page loads take a few seconds longer while nopCommerce makes the new picture sizes.
+
+<div class="callout">
+<p>Do not uninstall <em>Forma theme core</em> to update it: uninstalling deletes its settings and home sections.</p>
+</div>
+
 ## Next steps
 
 - Pick a preset and set your fonts and colors: [Look and feel]({{ '/look-and-feel/' | relative_url }}).
